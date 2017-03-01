@@ -142,7 +142,7 @@ public class TODG {
         ArrayList<Node> graph = readEdges();
     
         //Working queue, treeset is used since we want to take out always item with smallest id
-        TreeSet<Node> E = new TreeSet();
+        TreeSet<Node> E = new TreeSet<Node>();
     
         //First all nodes without incoming edges are added to working queue.
         for(Node n : graph) {
